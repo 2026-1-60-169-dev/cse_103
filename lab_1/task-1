@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main() {
+int x,sq,cu;
+scanf("%d",&x);
+sq=x*x;
+printf("%d\t",sq);
+cu=x*x*x;
+printf("%d",cu);
+}
