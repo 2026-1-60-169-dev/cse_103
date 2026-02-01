@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<math.h>
+int main(){
+    float radius,height,Volume;
+
+    scanf("%f %f" ,radius,height);
+
+Volume = 3.14 * radius * radius * height;
+
+printf("%f",&Volume);
+
+return 0;
+
+}
