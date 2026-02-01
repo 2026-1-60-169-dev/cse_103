@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<math.h>
+int main(){
+    float radius,length,volume_of_sphere,volume_of_cubic;
+
+scanf("%f %f",&radius,&length);
+
+volume_of_sphere=1.33*3.1416*radius*radius*radius;
+
+volume_of_cubic=length*length*length;
+
+printf("%f",volume_of_sphere);
+
+printf("%f",volume_of_cubic);
+
+}
