@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<math.h>
+int main(){
+    float  a,con;
+
+    printf("enter length in cm scale");
+    scanf("%f",&a);
+
+con=a/2.54;
+
+printf("%f",con);
+
+}
