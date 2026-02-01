@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<math.h>
+int main(){
+    float km,meter,feet,inch,centimeters;
+
+    scanf("%f", &km);
+
+    meter=km*1000;
+    feet= km * 3280.84;
+    inch=km*39370.1;
+    centimeters=km*100000;
+
+printf("%f %f %f %f",meter,feet,inch,centimeters);
+
+}
