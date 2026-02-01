@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<math.h>
+int main(){
+    int hour,minutes, re_minutes;
+
+    scanf("%d",&minutes);
+
+    hour= minutes/60;
+    re_minutes= minutes %60;
+
+printf("%d %d",hour,minutes);
+
+}
